@@ -13,7 +13,7 @@ The format of FSNS said in this [paper](https://arxiv.org/pdf/1702.03970.pdf)
 
 You need to do three steps:
 
-The first step is to create a dictionary that matches your own text label, such as dic.txt. 
+The first step is to create a dictionary that matches your own text label, such as [dic.txt](https://github.com/A-bone1/FSNS-tfrecord-generate/blob/master/dic.txt). 
 
 The second step is to place the pictures and text you need to generate under / data,
 
