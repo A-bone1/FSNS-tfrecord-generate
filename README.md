@@ -4,7 +4,7 @@
 Recently I would like to build a Chinese OCR based on Google Attention ocr and found that if you want to train your own model, you need to generate FSNS format tfrecord yourself, but Google officials did not say in this part carefully, only to a [stackoverflow link](https://stackoverflow.com/a/44461910/743658), but This link is also not clear,and have  some mistakes, so I wrote a code to generate FSNS format (JPG / PNG) tfrecord .
 The format of FSNS said in this [paper](https://arxiv.org/pdf/1702.03970.pdf)
 
-## But we only need to care about this figure.
+## we only need to care about this figure.
 ![image](https://github.com/A-bone1/FSNS-tfrecord-generate/blob/master/images/FSNS_format.jpg)
 
 
