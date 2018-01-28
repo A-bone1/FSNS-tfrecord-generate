@@ -8,7 +8,11 @@ But we only need to care about this figure.
 ![image](https://github.com/A-bone1/FSNS-tfrecord-generate/blob/master/images/FSNS_format.jpg)
 
 image / format: Image data format, the official use of png format,If your image is in jpg format, you can use "raw" instead of "png" 
+
+
 image / encoded: String data representing the transcoded image data
+
+
 image / class: a length of 37 label list (37 is the longest length of the label), in fact, is the label of each character id of the real label, behind the length of less than 37, add null
 image / unpadded_class: not filled null original label list
 image / width: The width of the image
